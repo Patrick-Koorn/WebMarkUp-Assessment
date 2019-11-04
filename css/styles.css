@@ -1,0 +1,61 @@
+body{
+	padding: 0px;
+	margin: 0px;
+	background: #F5F5F5;
+}
+h1{
+	line-height: 100px;
+	display: inline;
+}
+#titel{
+	display: inline;
+}
+#header{
+	letter-spacing: 2px;
+	font: caption;
+	font-size: 12px;
+	text-transform: uppercase;
+}
+#navigatie{
+	background: #000000;
+	color: white;
+	letter-spacing: 2px;
+	overflow: hidden;
+	position: fixed;
+	top: 0;
+	width: 100%;
+}
+#navigatie ul{
+	text-align: center;
+}
+#navigatie li{
+	display: inline;
+	padding: 25px;
+	cursor: pointer;
+}
+#navigatie a{
+	color: white;
+}
+#navigatie li:hover{
+	background-color: #2699FB;
+}
+.main{
+	font: caption;
+	text-align: left;
+	background-color: #F5F5F5;
+	border: solid;
+	width: 1000px;
+	margin-top: 10px;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 10px;
+}
+#molen{
+	width: 300px;
+	margin-left: 100px;
+}
+ #grachtenpand{
+	 width: 300px;
+	 float: right;
+	 margin-right: 100px;
+ }
