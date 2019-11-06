@@ -47,60 +47,106 @@
 			<footer>Written by Patrick&copy;</footer>
 		</article>
 	</section>
-		<aside id="sidebar">
+	<aside id="sidebar">
 		<header>
-			<h2>Header sidebar</h2>
+			<h2 id="referalcontent">Header sidebar</h2>
 		</header>
-		<p> content header </p>
+		<p> 
+			content header 
+		</p>
 	</aside>
 	<section>
 		<article class="Main">
 			<header>
 				<h3 id="secondarycontent">Europawijk</h3>
 			</header>
-			<p>Dit is de content van de secondary </p>
-			<footer>Written by Patrick&copy;</footer>
+			<p>
+				Dit is de content van de secondary
+			</p>
+			<footer>
+				Written by Patrick&copy;
+			</footer>
 		</article>
 	</section>
 	<section>
 		<article class="Main">
 			<header>
-				<h3 id="sportcontent">Sport</h3>
+				<h3 id="sportcontent">10 sportclubs in Europawijk</h3>
 			</header>
 			<p>
 				<ul>
 					<li>
-						Sportclub HLC, dit is een gymnastiekclub in Europawijk voor jongens en meiden turnen, guppiegym & gymkids.
+						<img id="turnen" src="img/turnen.png" title="turnen" alt="In dit plaatje zie je een 3 voetballen op een grasveld.">
+						<h2 class="titelList">Sportclub HLC</h2>
+						Sportclub HLC is een gymnastiekclub in de Europawijk voor jongens en meiden. De soorten gymnastiek wat je kunt volgen hier zijn turnen, guppiegym & gymkids.
 					</li>
 					<li>
-						Sportclub Olympia is een sportclub met verschillende sporten zoals: voetbal, badminton, honkbal en frisbeeën.
+						<img id="honkbal" src="img/honkbal.png" title="honkbal" alt="In dit plaatje zie je een honkbal in de handen van een honkbal speler.">
+						<h2 class="titelList">Sportclub Olympia</h2>
+						Sportclub Olympia is een sportclub met verschillende sporten. De sporten wat u kan doen bij deze sportclub zijn: voetbal, badminton, honkbal en frisbeeën.
 					</li>
 					<li>
-						Sportvereniging Door Inspanning Overwinnen, ook bekend als DIO, is een vereniging ontstaan in 1916 en bestaat uit voetbal en softbal. 
+						<img id="voetbal" src="img/voetbal.png" title="Voetbal" alt="In dit plaatje zie je een voetbal op een grasveld.">
+						<h2 class="titelList">Sportvereniging DIO</h2>
+						Sportvereniging Door Inspanning Overwinnen, ook bekend als DIO, is een vereniging ontstaan in 1916 en bestaat uit de sporten voetbal en softbal. 
 					</li>
 					<li>
-						Basketball Vereniging BC Triple Threat is een basketbalclub bij het winkelcentra van Europawijk.
+						<img id="basketball" src="img/basketball.png" title="basketball" alt="In dit plaatje zie je een basketball die net door de basketring is gevallen.">
+						<h2 class="titelList">BC Triple Threat</h2>
+						Basketball Vereniging BC Triple Threat is een basketbalclub met  jongens en meiden teams bij het winkelcentra van Europawijk.
 					</li>
 					<li>
-						H.S.R.V. Amphitrite is de Haerlemsche Studenten Roeivereniging Amphitrite waar studenten in groepjes kunnen aanmelden om mee te roeien.
+						<img id="roeien" src="img/roeien.png" title="roeien" alt="In dit plaatje zie je een voetbal op een grasveld.">
+						<h2 class="titelList">H.S.R.V.</h2>
+						H.S.R.V. Amphitrite is de Haerlemsche Studenten Roeivereniging Amphitrite. Hier kunnen studenten in groepjes aanmelden om mee te roeien met de vereniging. 
+					</li>
+					<li>
+						<img id="gym" src="img/gym.png" title="gym" alt="In dit plaatje zie je een voetbal op een grasveld.">
+						<h2 class="titelList">Fit For Free</h2>
+						Sportschool Fit For Free is ook aanwezig in Europawijk. Hier kunt u sporten op de manier waarop en wanneer u wilt.
+					</li>
+					<li>
+						<img id="kickbox" src="img/kickbox.png" title="kickbox" alt="In dit plaatje zie je een voetbal op een grasveld.">
+						<h2 class="titelList">Daan Sport</h2>
+						Daan sport is de meest complete kickboks training van heel Haarlem en omstreken. Hier kunt u alle energie eruit slaan op een professionele manier. 
+					</li>
+					<li>
+						<img id="tennis" src="img/tennis.png" title="tennis" alt="In dit plaatje zie je een voetbal op een grasveld.">
+						<h2 class="titelList">Basic Tennis</h2>
+						Basic Tennis is de tennisschool van Europawijk. Hier leert u tennis van professionele trainers die veel kennis en geduld hebben om u de kunst van het tennis te leren.
+					</li>
+					<li>
+						<img id="tennisbal" src="img/tennisbal.png" title="tennisbal" alt="In dit plaatje zie je een voetbal op een grasveld.">
+						<h2 class="titelList">Tennis en Squash Overhout</h2>
+						Tennis en Squash Overhout is tennis- en squashclub voor iedereen. Je kunt er tennissen als lid, maar ook zonder lidmaatschap kan er hier een baan gehuurd worden.
 					</li>
 				</ul>
 			</p>
-			<footer>Written by Patrick&copy;</footer>
+			<footer>
+				Written by Patrick&copy;
+			</footer>
 		</article>
 	</section>
 	<section class="Main">
-		<fieldset>
-			<legend>
-				Contact
-			</legend>
-				<p>Naam: <input type="text" name="name"></p>
-				<p>E-mail <input type="email" name="email"></p>
-				<label> Bericht
-						<input type="text" name="message" value="" id="message"/>
-						Kan tot 5000 karakters bevatten.
-				</label>
-		</fieldset>
+		<form action="http://witan.nl/inholland/testform.php" method="post">
+			<fieldset>
+				<legend id="contactcontent">
+					Contact
+				</legend>
+					<p>
+						Naam: <input type="text" name="name">
+					</p>
+					<p>
+						E-mail: <input type="email" name="email">
+					</p>
+					<p>
+						Bericht: <input type="text" name="message" value="">
+					</p>
+					<p>
+						<input type="submit" name="submit"> 
+					</p>
+			</fieldset>
+		</form>
 	</section>
 	<footer id="sitefooter">
 		Site van Patrick&copy;

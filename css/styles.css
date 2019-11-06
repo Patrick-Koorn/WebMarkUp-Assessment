@@ -76,6 +76,17 @@ h1{
 	width: 100%;
 	margin-top: 10px;
  }
- #message{
-	 rows: 4;
- }
+#turnen, #honkbal, #voetbal, #basketball, #roeien, #gym, #kickbox, #tennis, #tennisbal {
+  float: left;
+  width: 200px;
+}
+li {
+  padding: 10px;
+  overflow: auto;
+}
+.titelList{
+	font-size: 13pt;
+}
+
+
+	
