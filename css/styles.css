@@ -35,8 +35,7 @@ h1{
 #navigatie li:hover{
 	background-color: #2699FB;
 }
-.main{
-	font: caption;
+.Artikel{
 	text-align: left;
 	background-color: #F5F5F5;
 	border: solid;
@@ -76,7 +75,10 @@ h1{
 	width: 100%;
 	margin-top: 10px;
  }
-#turnen, #honkbal, #voetbal, #basketball, #roeien, #gym, #kickbox, #tennis, #tennisbal {
+ #artikelfooter{
+	 float: right;
+ }
+#turnen, #honkbal, #voetbal, #basketball, #roeien, #gym, #kickbox, #tennis, #tennisbal, #jiujitsu{
   float: left;
   width: 200px;
 }
@@ -87,6 +89,7 @@ li {
 .titelList{
 	font-size: 13pt;
 }
+
 
 
 	
