@@ -1,20 +1,28 @@
 body{
 	padding: 0px;
 	margin: 0px;
-	background: #F5F5F5;
+	font-family: "Roboto", "Arial", "Berlin Sans FB", "sans-serif";
+	font-size: 13pt;
 }
-h1{
-	padding-top: 40px; 
+/* Titels */
+#mainTitel{
+	padding-top: 45px; 
+	font-size: 20pt;
+	text-transform: uppercase;
 }
+.titel{
+	font-size: 18pt;
+	font-weight: bold;
+}
+.titelList{
+	font-size: 18pt;
+}
+/* Header en Navigatie */
 #header{
 	letter-spacing: 2px;
-	font: caption;
-	font-size: 12px;
-	text-transform: uppercase;
 }
 #navigatie{
 	background: #000000;
-	color: white;
 	letter-spacing: 2px;
 	overflow: hidden;
 	position: fixed;
@@ -30,54 +38,76 @@ h1{
 	cursor: pointer;
 }
 #navigatie a{
-	color: white;
+	color: #FFFFFF;
 }
 #navigatie li:hover{
 	background-color: #2699FB;
 }
+/* Sections Codes */
 .Artikel{
 	text-align: left;
 	background-color: #F5F5F5;
 	border: solid;
-	width: 1000px;
+	width: 925px;
+	margin-left: 15px;
 	margin-bottom: 10px;
 	padding: 10px;
 	float: left;
-	margin-left: 4em;
-	margin-right: 2em;
 }
-#molen{
-	width: 300px;
-	margin-left: 100px;
-}
- #grachtenpand{
-	width: 300px;
-	float: right;
-	margin-right: 100px;
- }
- #sidebar{
+#sidebar{
 	font: caption;
 	text-align: left;
 	background-color: #F5F5F5;
 	border: solid;
 	width: 250px;
 	padding: 10px;
-	float: right;
-	margin-right: 4em;
-	margin-left:2em;
- }
- #sitefooter{
-	background: #000000;
-	color: white;
+	float: left;
+	margin-left: 10px;
+	font-size: 15pt;
+}
+/* Footers */
+#sitefooter{
+	background: #444444;
+	color: #FFFFFF;
 	letter-spacing: 2px;
 	overflow: hidden;
 	bottom: 0;
 	width: 100%;
+	border: solid;
 	margin-top: 10px;
  }
- #artikelfooter{
+.artikelfooter{
 	 float: right;
  }
+/* Images */
+#linkedIn{
+	width: 100px;
+	float: right;
+	margin-right: 10px;
+}
+#molen{
+	width: 300px;
+	margin-left: 100px;
+}
+#europawijk{
+	width: 300px;
+	margin-left: 100px;
+}
+#flatEuropawijk{
+	width: 300px;
+	float: right;
+	margin-right: 100px;
+}
+#grachtenpand{
+	width: 300px;
+	float: right;
+	margin-right: 100px;
+}
+/* Images fotos in list Sport content */
+#houdgreep{
+	float: left;
+	width: 200px;
+}
 #turnen, #honkbal, #voetbal, #basketball, #roeien, #gym, #kickbox, #tennis, #tennisbal, #jiujitsu{
   float: left;
   width: 200px;
@@ -86,10 +116,40 @@ li {
   padding: 10px;
   overflow: auto;
 }
-.titelList{
-	font-size: 13pt;
+/* Video centreren en op achtergrond */
+#achtergrondVideo {
+	position: fixed;
+	top: 0;
+	bottom: 0;
+	min-width: 100%;
+	min-height: 100%;
+	z-index: -1;
 }
-
-
-
-	
+/*Alle code voor cookie statement */
+#buttonCookie {
+	display: none;
+}
+#buttonCookie:checked + #cookiestatement {
+    top: -100%;
+}
+#labelcookie {
+	display: inline-block;
+	background: #707070;
+	border: solid;	
+}
+#labelcookie:hover{
+	background-color: #2699FB;
+}
+#cookiestatement {
+	position: fixed;
+	background: #AAAAAA;
+	border: solid;
+	top: 60px;
+	width: 100%;
+	text-align: center;
+	transition: 1s ease;
+	z-index: +1;
+}
+#cookiesImg{
+	width: 100px;
+}

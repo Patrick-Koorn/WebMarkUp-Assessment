@@ -1,0 +1,4 @@
+User-Agent: *
+Disallow: /forbidden/
+
+Sitemap: sitemap.xml
